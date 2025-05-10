@@ -24,7 +24,7 @@ python -m flask run #run flask app
 - Upload image from user
 - Classify image by using machine learning model
 - Return probability who is on the picture cat or dog.
-- Use dataset for train ML model: Cat & Dog images for Classification
-- Google colab ML project and model: Classification Web App.ipynb
+- Use dataset for train ML model: Cat & Dog images for Classification (https://www.kaggle.com/datasets/ashfakyeafi/cat-dog-images-for-classification)
+- Google colab ML project and model: Classification Web App.ipynb (https://colab.research.google.com/drive/1uEUA_nuzGQ_SCkgUahGR_aAOhGTVVBIi?usp=sharing)
 - Trained 50 epochs and chosen 49 epochs with max val_accuracy: 0.9714.
 
