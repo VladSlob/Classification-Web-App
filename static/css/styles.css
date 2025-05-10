@@ -1,33 +1,133 @@
-body {
-    background-image: url("../images/cat-dog.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-color: black;
-    height: 100vh;
+*, *::before, *::after {
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.center {
+.page {
+    background-size: cover;
+    background-position: center;
+    color: white;
     text-align: center;
-}
-
-.result_background_image {
-    background-image: url("../images/cat-dog-result.jpg");
     height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
-.margin-top {
-    padding-top: 17%;
+.road-bg {
+    background-image: url('/static/backgrounds/road.webp');
 }
 
-.p1 {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
+.flat-tire-bg {
+    background-image: url('/static/backgrounds/wrecked-car.webp');
 }
 
-.text_color {
+.ok-tire-bg {
+    background-image: url('/static/backgrounds/bolid.webp');
+}
+
+.hidden {
+    display: none;
+}
+
+.home-page-title {
+    color: purple;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+}
+
+.home-page-subtitle {
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    margin-bottom: 0.2rem;
+}
+
+.image-loading-form {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    gap: 10px;
+    min-width: 300px;
+    justify-content: center;
+}
+
+.image-loading-input {
+    opacity: 0;
+    width: 1px;
+    height: 1px;
+}
+
+.image-loading-label {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+    border: 1px dashed black;
+    background: #86989B;
+    font-size: 36px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.image-preview {
+    border-radius: 10px;
+    width: 80px;
+    height: 80px;
+}
+
+.check-button {
+    padding: 10px 20px;
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.check-button:hover {
+    background: #0056b3;
+}
+
+.result-container {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 10px;
+    height: max-content;
+}
+
+.advice-message {
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.advice-message--success {
+    color: greenyellow;
+}
+
+.advice-message--danger {
     color: red;
 }
-.text_color_2 {
+
+.confidence-text {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.link {
+    display: inline-block;
     color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2rem;
+    padding: 10px 30px;
+    border-radius: 5px;
+    background: #007bff;
 }
