@@ -6,7 +6,7 @@ I want to build a Flask application that performs image classification to distin
 
 Please make sure Python 3 is installed before proceeding.
 ```
-git clone https://github.com/VladSlob/Classification-Web-App
+git clone https://github.com/VladSlob/Classification-Web-App/tree/develoy
 cd classification_web_app
 python -m venv venv
 venv\Scripts\activate
