@@ -28,3 +28,4 @@ python -m flask run #run flask app
 - Google colab ML project and model: Classification Web App.ipynb (https://colab.research.google.com/drive/1uEUA_nuzGQ_SCkgUahGR_aAOhGTVVBIi?usp=sharing)
 - Trained 50 epochs and chosen 49 epochs with max val_accuracy: 0.9714.
 
+![Опис графіка епох машинного навчання](demo_images/ml_epochs.png)
