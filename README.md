@@ -1,4 +1,4 @@
-# InstallationClassification-Web-App (Vladyslav Slobodian)
+# Classification-Web-App (Vladyslav Slobodian)
 
 I want to build a Flask application that performs image classification to distinguish between cats and dogs.
 
