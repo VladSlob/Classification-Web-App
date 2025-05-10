@@ -14,3 +14,7 @@ pip install -r requirements.txt
 python -m flask run #run flask app
 ```
 
+# Getting access
+
+- Get start page /
+- Get result page /classify
