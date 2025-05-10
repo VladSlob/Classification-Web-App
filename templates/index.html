@@ -1,20 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Home page</title>
-  <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tire checker</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+    <link rel="icon" href="../static/favicon.ico" />
+    <script src="/static/js/script.js" defer></script>
 </head>
-<body>
-  <div class="center margin-top">
-    <p class="p1 text_color_2">Check if your funny friend is truly a Dog or Cat!</p>
-  </div>
+<body class="page road-bg">
+    <h1 class="home-page-title">Tire checker</h1>
+    <h2 class="home-page-subtitle">Upload an Image of the Tire</h2>
 
-  <div class="center">
-    <form action="/classify" method="POST" enctype="multipart/form-data">
-      <input type="file" name="image"/>
-      <button type="submit">Classify</button>
+    <form action="/classify" method="POST" enctype="multipart/form-data" class="image-loading-form">
+        <label class="image-loading-label" for="imageInput">
+            <span class="image-loading-label_text">+</span>
+            <img class="image-preview hidden" src="" alt="Image Preview">
+        </label>
+
+        <input
+            id="imageInput"
+            type="file"
+            name="image"
+            accept="image/*"
+            required
+            class="image-loading-input"
+        >
+
+        <button type="submit" class="check-button">Check</button>
     </form>
-  </div>
 </body>
 </html>
