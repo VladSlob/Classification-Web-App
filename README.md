@@ -29,3 +29,10 @@ python -m flask run #run flask app
 - Trained 50 epochs and chosen 49 epochs with max val_accuracy: 0.9714.
 
 ![Опис графіка епох машинного навчання](demo_images/ml_epochs.png)
+
+# Demo Images
+
+![Результат ALF](demo_images/alf_result.png)
+![Результат CAT](demo_images/cat_result.png)
+![Результат DOG](demo_images/dog_result.png)
+![Головна сторінка](demo_images/main_page.png)
